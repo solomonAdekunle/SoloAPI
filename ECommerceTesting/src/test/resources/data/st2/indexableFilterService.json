@@ -1,0 +1,22 @@
+{
+  "servicedata": [
+    {
+      "name": "IndexableFilterServiceGETRequest",
+      "protocol": "http",
+      "host": "brand-global-st2.ebs.ecomp.com:8087/indexable-filter",
+      "authorisation": {
+        "UserName": "user",
+        "Password": "password"
+      }
+    },
+    {
+      "name": "BrandIndexableServiceGETRequest",
+      "protocol": "http",
+      "host": "brand-global-st2.ebs.ecomp.com:8087/indexable-filter",
+      "authorisation": {
+        "UserName": "user",
+        "Password": "password"
+      }
+    }
+  ]
+}

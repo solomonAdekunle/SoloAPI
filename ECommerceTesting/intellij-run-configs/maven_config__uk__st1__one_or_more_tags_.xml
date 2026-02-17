@@ -1,0 +1,39 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="maven config (uk, st1, one or more tags)" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings" />
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="clean" />
+              <option value="verify" />
+              <option value="-Dcountry=uk" />
+              <option value="-Denv=st1" />
+              <option value="-Dngsp=true" />
+              <option value="-Dtestrail.enabled=false" />
+              <option value="-DuseTestRailOutput=false" />
+              <option value="-Dheadless=true" />
+              <option value="-Dlocal=true" />
+              <option value="-Dtest=skipMavenTestPhase" />
+              <option value="-DfailIfNoTests=false" />
+              <option value="-Dcucumber.options=--tags @EDCMP-24,@EDCMP-241" />
+              <option value="-Dskip.cucumber.parallel.tests.report=true" />
+            </list>
+          </option>
+          <option name="pomFileName" />
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="resolveToWorkspace" value="false" />
+          <option name="workingDirPath" value="$PROJECT_DIR$" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <method v="2" />
+  </configuration>
+</component>

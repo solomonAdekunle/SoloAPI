@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "markets": [
+        "uk"
+      ],
+      "environments": [
+        "st2", "st1"
+      ],
+      "scenarioStatusLine": {
+        "description": "the estimated time delivery",
+        "statuses": [
+          "step complete",
+          "step complete",
+          "step complete",
+          "step exception active",
+          "step"
+        ]
+      }
+    },
+    {
+      "markets": [
+        "uk"
+      ],
+      "environments": [
+        "st2", "st1"
+      ],
+      "scenarioStatusLine": {
+        "description": "tracking multi leg delivery",
+        "statuses": [
+          "step complete",
+          "step active complete",
+          "step",
+          "step",
+          "step"
+        ]
+      }
+    },
+    {
+      "markets": [
+        "uk"
+      ],
+      "environments": [
+        "st2", "st1"
+      ],
+      "scenarioStatusLine": {
+        "description": "first carrier not onboard",
+        "statuses": [
+          "step complete",
+          "step complete",
+          "step complete",
+          "step complete",
+          "step active complete"
+        ]
+      }
+    },
+    {
+      "markets": [
+        "uk"
+      ],
+      "environments": [
+        "st2", "st1"
+      ],
+      "scenarioStatusLine": {
+        "description": "exceptions not displayed if newer successful events exist",
+        "statuses": [
+          "step complete",
+          "step complete",
+          "step complete",
+          "step complete"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Cucumber Java config (uk, st1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false">
+    <option name="CUCUMBER_CORE_VERSION" value="2" />
+    <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cucumber/EndecaSearchAPI" />
+    <option name="GLUE" value="stepdefs.hooks stepdefs.EndecaSearchAPI" />
+    <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <module name="SearchAPI-Acceptance-Tests" />
+    <option name="PROGRAM_PARAMETERS" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --tags @EDCMP-241" />
+    <shortenClasspath name="NONE" />
+    <option name="VM_PARAMETERS" value="-Dheadless=true -Dlocal=true -Denv=st1 -Dversion=cloud -Dskip.cucumber.parallel.tests.report=false -Dtest=skipMavenTestPhase -DfailIfNoTests=false" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="cucumber.api.cli.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

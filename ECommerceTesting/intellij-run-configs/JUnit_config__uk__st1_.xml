@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JUnit config (uk, st1)" type="JUnit" factoryName="JUnit">
+    <module name="SearchAPI-Acceptance-Tests" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="azul-1.8" />
+    <option name="PACKAGE_NAME" value="config" />
+    <option name="MAIN_CLASS_NAME" value="config.RunCukesTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-Dcountry=uk -Denv=st1 -Dngsp=true -Dtestrail.enabled=false -DuseTestRailOutput=false -Dheadless=true -Dlocal=true -Dskip.cucumber.parallel.tests.report=false -Dtest=skipMavenTestPhase -DfailIfNoTests=false &quot;-Dcucumber.options=--tags @EDCMP-241&quot;" />
+    <option name="PARAMETERS" value="" />
+    <patterns>
+      <pattern testClass="config.*" />
+    </patterns>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
